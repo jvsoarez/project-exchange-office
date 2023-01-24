@@ -1,0 +1,19 @@
+{
+  "name": "exchange-office",
+  "version": "1.0.0",
+  "description": "currency conversion",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.0.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
