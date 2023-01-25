@@ -6,6 +6,11 @@ const button = document.querySelector('#find-button');
 const container = document.querySelector('#container');
 const containerTitle = document.querySelector('#currency-container-title');
 
+document.addEventListener('keypress', (event) => {
+  if(event.key === 'Enter') button.click();
+});
+
+
 const addCurrenciesInContainer = (currencies) => {
   const createCurrencyContainer = document.createElement('div');
   createCurrencyContainer.setAttribute('id', 'currency-container');
