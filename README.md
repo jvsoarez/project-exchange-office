@@ -18,6 +18,9 @@
 Clone this repository:
 
     git clone git@github.com:jvsoarez/project-exchange-office.git
+    
+Enter in the directory
+    
     cd project-exchange-office.git
     
 To install the dependencies:
