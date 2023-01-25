@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vite": "^4.0.4"
+    "sweetalert2": "^11.7.1",
+    "vite": "^4.0.4",
+    "build": "vite build"
   },
   "type": "module",
   "devDependencies": {

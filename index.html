@@ -4,9 +4,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <script src="https://kit.fontawesome.com/cfcba2b88f.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="/images/coins.png" type="image/x-icon">
+  <title>Casa de câmbio</title>
 </head>
 <body>
+  <header>
+    <h1 id="title1">Casa de <span id="title2">Câmbio</span></h1>
+  </header>
+  <main id="main-content">
+    <section id="input-and-button-container">
+      <div id="label-input-container">
+        <label id="currency-input-label" for="currency-input">Digite a moeda:</label>
+        <input id="currency-input" type="text" placeholder="Exemplo: EUR">
+      </div>
+      <div id="div-button">
+        <button id="find-button">Pesquisar</button>
+      </div>
+    </section>
+    <section id="container">
+      <div id="container-title-h3">
+        <h3 id="currency-container-title"></h3>
+      </div>
+    </section>
+  </main>
   <script type="module" src="src/script.js"></script>
 </body>
 </html>
