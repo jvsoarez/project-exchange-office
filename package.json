@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "sweetalert2": "^11.7.1",
-    "vite": "^4.0.4"
+    "vite": "^4.0.4",
+    "build": "vite build"
   },
   "type": "module",
   "devDependencies": {
