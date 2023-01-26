@@ -17,7 +17,7 @@
 
 Clone this repository:
 
-    git clone git@github.com:jvsoarez/project-exchange-office.git
+    git clone https://github.com/jvsoarez/project-exchange-office.git
     
 Enter in the directory
     
